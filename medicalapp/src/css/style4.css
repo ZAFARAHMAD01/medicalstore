@@ -1,0 +1,109 @@
+.blue10{
+    margin-left: 10px;
+
+}
+.icsize{
+    font-size: 25px;
+}
+.icsize1{
+    padding: 5%;
+    color: blue;
+
+}
+.bcal{
+    color: black;
+}
+.navbar-toggler-icon{
+    color: blue;
+}
+.mapcol{
+    background-color: aliceblue;
+}
+.plus{
+    border: none;
+}
+.minus{
+    border: none;
+}
+.input-box{
+    border: none;
+}
+.quantity{
+    border: 1px black solid;
+    /* outline: 2px; */
+    justify-content: center;
+}
+@media screen and (max-width: 425px){
+    .icsize{
+        display: none;
+    }
+    .ico{
+        display: none;
+    }
+}
+   
+.card {
+    overflow-x: hidden;
+}
+.crdpadding{
+    margin-top: 20%;
+}
+.cardpadding{
+    padding: 10%;
+    margin-top: 10%;
+}
+.addc:hover{
+    background-color: #000;
+    transition: 0.3s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+.addcard{
+    visibility: hidden;
+}
+.card:hover .addcard{
+    visibility: visible;
+}
+.po{
+    position: relative;
+}
+.addc2{
+    background-color: skyblue;
+    border: 0px;
+}
+.addc{
+    height: 3rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.ADDCARD{
+    position: absolute;
+    top: 55%;
+    
+}
+.smallcard{
+    display: flex;
+}
+.smcart{
+    overflow-x: hidden;
+}
+.picsmallcart{
+    height: 8rem;
+}
+.rowforsmallcart{
+    /* border: 2px solid black; */
+    /* box-shadow: #000 20px; */
+    box-shadow: -1px -1px 1px 1px #c0c0c0, 1px -1px 1px 2px #dbdbdb;
+    position: relative;
+    z-index:10;
+    padding: 5%;
+}
+  
+@media screen and (max-width: 325px){
+    #tablink{
+        width: 100% !important;
+    }
+    .tab11{
+        width: 100%;
+    }
+}
+  
